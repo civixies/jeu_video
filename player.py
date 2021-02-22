@@ -2,7 +2,6 @@ import pygame
 from projectile import Projectile
 
 #créer une classe player
-#test pour un git mergen 
 class Player(pygame.sprite.Sprite):
 
     def __init__(self):
