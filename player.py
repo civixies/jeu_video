@@ -2,7 +2,7 @@ import pygame
 from projectile import Projectile
 
 #créer une classe player
-
+#test pour un git merge
 class Player(pygame.sprite.Sprite):
 
     def __init__(self):
@@ -14,8 +14,8 @@ class Player(pygame.sprite.Sprite):
         self.all_projectiles = pygame.sprite.Group()
         self.image = pygame.image.load('assets/player.png')
         self.rect = self.image.get_rect()
-        self.rect.x = 400
-        self.rect.y = 400
+        self.rect.x = 500
+        self.rect.y = 485
          
     def launch_projectile(self):
         #creer une nouvelle instance de projectile
