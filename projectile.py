@@ -1,7 +1,6 @@
 import pygame
 
 #creer la notion de projectile
-#voila un changement
 
 class Projectile(pygame.sprite.Sprite):
     #definir le constructeur de cette classe
