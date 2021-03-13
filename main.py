@@ -22,6 +22,10 @@ while running:
     #appliquer l'image de mon joueur
     screen.blit(game.player.image, game.player.rect)
 
+    #récupérer les projectiles du joueur
+    for projectile in game.player.all_projectiles:
+        projectile.move()
+
     #appliquer l'image du groupe de projectiles
     game.player.all_projectiles.draw(screen)
 
@@ -61,4 +65,4 @@ while running:
 
 
 
-# reprendre à la vidéo 3: 14 min 51 sec
+# reprendre à la vidéo 3: 19 min 37 sec
