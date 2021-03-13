@@ -65,4 +65,4 @@ while running:
 
 
 
-# reprendre à la vidéo 3: 19 min 37 sec
+# reprendre à la vidéo 4: depuis le début
