@@ -59,6 +59,6 @@ while running:
         elif event.type == pygame.KEYUP:
             game.pressed[event.key] = False
 
-#J'ai ajouté un test rapide
-#Cette fois-ci je veux faire un test de branche
+
+
 # reprendre à la vidéo 3: 14 min 51 sec
