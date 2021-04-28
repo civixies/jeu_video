@@ -29,6 +29,8 @@ while running:
     #appliquer l'image du groupe de projectiles
     game.player.all_projectiles.draw(screen)
 
+    #appliquer l'esnsemble des images de mon groupe de monstre
+    game.all_monsters.draw(screen)
 
     #a tester une fois la classe complete
     #screen.blit(player.image, Player.rect(self))
@@ -65,4 +67,4 @@ while running:
 
 
 
-# reprendre à la vidéo 4: 3 minutes et 20 secondes
+# reprendre à la vidéo 4: 11 minutes et 20 secondes
